@@ -10,7 +10,7 @@ public class App {
     Oops oops = new Oops();
     
     int number = oops.getInput(1, 10, "Enter a number from 1 to 10: ", "Invalid Input. Try again: ");
-    System.out.println("The value chosen by the user is1 " + number);
+    System.out.println("The value chosen by the user is " + number);
   } 
 
 }
